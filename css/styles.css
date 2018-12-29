@@ -1,0 +1,111 @@
+
+/* Large devices only */
+@media (min-width: 992px) {
+
+  .large-devices {
+    width: 31.33%;
+    margin-right: 2%;
+    float: left;
+  }
+
+}
+
+/* Laptop */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .laptop-1{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+
+  }
+
+  .laptop-2 {
+    width: 98%;
+    float: left;
+    margin-right: 2%;
+  }
+}
+
+/* Mobile view  */
+@media (max-width: 767px) {
+
+  .mobile-devices {
+    width: 100%;
+    float: left;
+
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F7D358;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 175%;
+  color: black;
+}
+
+#box{
+   overflow: auto;
+}
+
+
+p {
+  border: 1px solid black;
+  background-color: grey;
+  width: 100%;
+  height: 150px;
+  font-family: Helvetica;
+  color: black;
+}
+
+.label1 {
+      float: right;
+      background-color: #FF7373;
+      height: 30px;
+      width: 150px;
+      color:#FFFA73;
+      font-family: Helvetica;
+      text-align: center;
+      font-size: 125%;
+      margin-top: 16px;
+
+    }
+
+.label2 {
+      float: right;
+      background-color: #A60000;
+      color:white;
+      height: 30px;
+      width: 150px;
+      text-align: center;
+      font-size: 125%;
+      margin-top: 16px;
+}
+
+.label3 {
+      float: right;
+      background-color: #FFBF40;
+      color:#06266F;
+      height: 30px;
+      width: 150px;
+      text-align: center;
+      font-size: 125%;
+      margin-top: 16px;
+}
+
+.content {
+     background-color: white;
+     margin-bottom: 2px;
+     margin-right: 4px;
+     padding-top: 40px;
+     padding-left: 20px;
+ }
